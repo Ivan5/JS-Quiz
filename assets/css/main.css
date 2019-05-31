@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: #f3f3f3;
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.quiz .question {
+  width: 600px;
+}
+
+.question .question__answers {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+.question__answers label {
+  padding: 15px;
+  margin: 5px 0px;
+}
+
+.question__answers label.correct {
+  background: #24a484;
+}
+
+.question__answers label.incorrect {
+  background: #af1e2d;
+}
+
+.question .question__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "id": "0",
+      "title": "Do you like my tutorials?",
+      "answers": [
+        {
+          "id": "0",
+          "answer": "Yes"
+        },
+        {
+          "id": "1",
+          "answer": "No"
+        }
+      ],
+      "correct": "0"
+    },
+    {
+      "id": "1",
+      "title": "Which of the following variables cannot be changed?",
+      "answers": [
+        {
+          "id": "0",
+          "answer": "var"
+        },
+        {
+          "id": "1",
+          "answer": "let"
+        },
+        {
+          "id": "2",
+          "answer": "const"
+        }
+      ],
+      "correct": "2"
+    },
+    {
+      "id": "3",
+      "title": "Which of the following is the correct way to add a new item to an array?",
+      "answers": [
+        {
+          "id": "0",
+          "answer": "array.add(\"item\");"
+        },
+        {
+          "id": "1",
+          "answer": "array.push(\"item\");"
+        },
+        {
+          "id": "2",
+          "answer": "add(array, \"item\");"
+        }
+      ],
+      "correct": "1"
+    },
+    {
+      "id": "4",
+      "title": "Another question",
+      "answers": [
+        {
+          "id": "0",
+          "answer": "Please pick me"
+        },
+        {
+          "id": "1",
+          "answer": "No Pick me"
+        },
+        {
+          "id": "2",
+          "answer": "Pick me"
+        },
+        {
+          "id": "3",
+          "answer": "Definitely pick me"
+        }
+      ],
+      "correct": "3"
+    }
+  ]
+}
