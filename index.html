@@ -9,12 +9,16 @@
   </head>
   <body>
     <div class="quiz">
-      <div class="question">
+      <div class="question" id="question">
         <h3 class="question__title" id="title"></h3>
         <div class="question__answers" id="answers"></div>
         <div class="question__actions">
           <button class="btn" id="action_btn">Submit</button>
+          <button class="btn hide" id="next_btn">Next Question</button>
         </div>
+      </div>
+      <div class="score hide" id="scores">
+        You scored: <span id="score"></span>
       </div>
     </div>
     <script src="assets/js/main.js"></script>
